@@ -1,0 +1,29 @@
+h3{ font-size: 15px;
+    color: Red;
+    text-align: center;
+    text-decoration: underline;
+  ;}
+
+  .center{
+          width: 50%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+  }
+  h2{margin: 7px;}
+  p {margin: 10px;}
+  @media (min-width: 920px) {
+    h3 {
+        background-color:green;
+    }
+    }
+    @media (max-width: 919px) {
+    h3 {
+        background-color: yellow;
+    }
+    }
+    th, td{
+        border: 1px solid black;
+    text-align: center;}
+
+    table{text-align: center;}
