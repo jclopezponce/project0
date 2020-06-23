@@ -1,0 +1,35 @@
+$color: Black;
+$background-color:green;
+
+h3 {color:$color;
+text-align: center;
+background-color: $background-color;
+text-decoration: underline;}
+ul{ font-size: 15px;}
+
+
+    @media (max-width: 919px) {
+    h3 {
+        background-color: yellow;
+    }
+    }
+
+    div { color:$color;
+         
+
+        h6 {font-size: 20px;};
+
+        li{font-size: 15px;};
+
+    
+    }
+
+%message {
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+.mejores{
+    @extend %message;
+    text-decoration: underline;
+}
